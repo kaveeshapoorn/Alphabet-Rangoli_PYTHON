@@ -19,7 +19,7 @@ def printRangoli (n):
 
         if i != 0:                                                                      # left side of the middle column
             for j in range (i):
-                print (chr (97 + (n - 1) - j), "-", sep="", end="")                     # alphabets
+                print (chr (97 + (n - 1) - j), "-", sep="", end="")                    
 
         print (chr (97 + (n - 1) - i), end="")                                          # middle column
 
